@@ -1,6 +1,6 @@
-# [Team Id] [Team Name]
+ID [HM0019] TEAM NAME[TECH TITANS]
 
-## [Problem statement Title]
+PROBLEM STATEMENT [Design a solution to improve the focus of students and enhance attention span while studying.]
 
 ## Description
 Brief description of your project.
