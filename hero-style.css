@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-cream);
+}
+
+:root{
+    --black: #030000;
+    --background-cream: #ffffff;
+    --text-cream: #726F6A;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.logo img{
+    position: absolute;
+    padding: 50px 120px 0px 120px;
+    height: 60px;
+    
+}
+
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 110px 120px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+.image-container {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+
+.text-container .title{
+    font-weight: bold;
+    font-size: 71px;
+    line-height: 1.2;
+    color: var(--black);
+    text-align: left;
+    padding: 40px 30px 10px 0px;
+}
+
+.text-container .description{
+    font-size: 22px;
+    color: var(--text-cream);
+    letter-spacing: -0.2px;  
+}
+
+.text-container .description p{
+    margin: 0;
+    padding: 10px 0 0 0;
+    word-spacing: -1px;
+}
+
+.text-container ul{
+    padding: 10px 0 10px 0;
+    list-style: none;
+    
+}
+.text-container ul li{
+    margin: 5px 0 0 0;
+}
+
+.text-container ul li::before{
+    content: url(asset/Checkmark.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.text-container .CTA a{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 17px 28px;
+    margin: 15px 0 15px 0;
+}
+
+.CTA a:hover{
+    /* box-shadow: 0 0px 25px 0px #00000033; */
+    font-weight: 250;
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+.text-container .footer{
+    color: var(--text-cream);
+}
+
+.row{
+    margin: 5px 0 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    justify-content: left;
+    gap: 20px;
+}
