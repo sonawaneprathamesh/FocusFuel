@@ -23,7 +23,7 @@ This website aims to enhance student's study experience by combining mindfulness
 [focusfuel.vercel.app](FocusFuel)
 
 ## Video Url
-[Link to Demo Video](video_url)
+[https://www.loom.com/share/c37ea6adfebe4370b382e6dd79a65a63?sid=e5a26a38-82a4-437d-9bac-31048dab76b7](video_url)
 
 ## Remarks
 - Our web application can have more features in future : 
