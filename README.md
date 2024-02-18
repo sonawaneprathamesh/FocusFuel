@@ -1,26 +1,29 @@
-ID [HM0019] TEAM NAME[TECH TITANS]
+ID: HM0019 TEAM NAME: TECH TITANS
 
-PROBLEM STATEMENT [Design a solution to improve the focus of students and enhance attention span while studying.]
+PROBLEM STATEMENT: Design a solution to improve the focus of students and enhance attention span while studying.
 
 ## Description
-Brief description of your project.
+This website aims to enhance student's study experience by combining mindfulness, focused playlists, and collaborative accountability.
 
 ## Features
-- Feature 1
-- Feature 2
-- ...
+- Mindful Breaks
+- Task-Specific Focus Playlists
+- Progress Tracking
 
 ## Tech Stack
-- List of technologies used in your project.
+- HTML
+- CSS
+- JavaScript
+- NodeJS
 
 ## Screenshots
 
 
 ## Deployed Url
-[Link to Deployed Solution](gfgpccoe.in)
+(https://focusfuel-go4by68ir-sonawaneprathameshs-projects.vercel.app/)
 
 ## Video Url
 [Link to Demo Video](video_url)
 
 ## Remarks
-- Any additional things you want to share
+- Website has many future 
