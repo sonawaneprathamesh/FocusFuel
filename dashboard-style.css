@@ -12,8 +12,8 @@
 
 .one{
     width: 20vw;
-    height: 100vh;
-    overflow-y: auto;
+    height: 100;
+    overflow: hidden;
     background-color: #FFFFFF;
     z-index: 10;
     box-shadow: 0px 2px 18px rgba(209, 209, 209, 0.337);
@@ -99,7 +99,8 @@
 .two{
     width: 60vw;
     background-color: #fefefe;
-    overflow-y: auto;
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 .two .stories{
@@ -252,7 +253,7 @@
 
 .clock-card p{
     border-radius: 8px;
-    padding: 10px;
+    padding: 27px 10px;
     border: 2px solid white;
     width: 90%;
     text-align: center;
@@ -349,6 +350,54 @@
 
 
 
+.todo-container {
+    max-width: 400px;
+    margin: 10px auto;
+
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-item input[type="text"] {
+    flex: 1;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.todo-container #add-button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.todo-container #todo-input{
+    width: 200px;
+    padding: 10px 5px;
+    border-radius: 8px;
+}
+
+.todo-container #delete-list{
+    padding: 10px;
+    background: white;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+.todo-container #delete-list:hover{
+    background: red;
+    color: white;
+}
 
 
 
