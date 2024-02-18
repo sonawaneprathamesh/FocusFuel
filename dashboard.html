@@ -70,20 +70,32 @@
                         <div class="image" style="background: url(asset/card/books.jpg);
                         background-size: cover;"></div>
                         <p>Reading Hours</p>
-                        <a href="">Play</a>
+                        <button id="play-button">Play</button>
                     </div>
+                    <audio id="background-audio" loop>
+                        <source src="asset/music/Carefree(chosic.com).mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
                     <div class="card">
                         <div class="image" style="background: url(asset/card/writing.jpg);
                         background-size: cover;"></div>
                         <p>Writing Mood</p>
-                        <a href="">Play</a>
+                        <button id="play-button">Play</button>
                     </div>
+                    <audio id="background-audio" loop>
+                        <source src="asset/music/melody-of-nature-main(chosic.com).mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
                     <div class="card">
                         <div class="image" style="background: url(asset/card/coding.jpg);
                         background-size: cover;"></div>
                         <p>Coder's zone</p>
-                        <a href="">Play</a>
+                        <button id="play-button">Play</button>
                     </div>
+                    <audio id="background-audio" loop>
+                        <source src="asset/music/scott-buckley-moonlight(chosic.com).mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
                 </div>
             </div>
 
@@ -183,6 +195,21 @@
         todoItem.appendChild(deleteBtn);
         todoList.appendChild(todoItem);
     }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const playButton = document.getElementById('play-button');
+    const backgroundAudio = document.getElementById('background-audio');
+
+    playButton.addEventListener('click', function () {
+        if (backgroundAudio.paused) {
+            backgroundAudio.play();
+            playButton.textContent = 'Pause';
+        } else {
+            backgroundAudio.pause();
+            playButton.textContent = 'Play';
+        }
+    });
 });
 
     </script>
