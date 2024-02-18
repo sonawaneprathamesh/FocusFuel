@@ -228,8 +228,8 @@
 .second-section{
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 25px 50px;
+    gap: 30px;
 }
 
 .second-section .clock{
@@ -277,7 +277,75 @@
     color: black;
 }
 
+.analytic{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
 
+.analytic-card{
+    margin: 5px;
+    display: flex;
+    gap: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.analytic-card #hours{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 140px;
+    background-color: #016BFF;
+    color: white;
+    text-align: center;
+    padding: 4%;
+    border-radius: 6px;
+}
+
+.analytic-card #break{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 140px;
+    background-color: #EA0272;
+    color: white;
+    text-align: center;
+    padding: 4%;
+    border-radius: 6px;
+}
+
+.analytic-card #streak{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    background-color: #FFA722;
+    color: white;
+    text-align: center;
+    padding: 4%;
+    border-radius: 6px;
+}
+
+.analytic-card #streak h2{
+    font-size: 40px;
+}
+
+
+
+.analytic-card h2{
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.analytic-card img{
+    width: 20px;
+}
 
 
 
