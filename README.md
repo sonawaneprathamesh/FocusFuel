@@ -20,7 +20,7 @@ This website aims to enhance student's study experience by combining mindfulness
 
 
 ## Deployed Url
-[focusfuel.vercel.app]
+[https://focusfuel-git-main-sonawaneprathameshs-projects.vercel.app/]
 
 ## Video Url
 [https://www.loom.com/share/c37ea6adfebe4370b382e6dd79a65a63?sid=e5a26a38-82a4-437d-9bac-31048dab76b7]
