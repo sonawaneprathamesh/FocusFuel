@@ -20,10 +20,17 @@ This website aims to enhance student's study experience by combining mindfulness
 
 
 ## Deployed Url
-[https://focusfuel-go4by68ir-sonawaneprathameshs-projects.vercel.app/]
+[https://focusfuel-go4by68ir-sonawaneprathameshs-projects.vercel.app/]()
 
 ## Video Url
 [Link to Demo Video](video_url)
 
 ## Remarks
-- 
+- Our web application can have more features in future : 
+- This website can have more features like preferences in which they can use dark mode .
+- The second one is the collaborative learning where the students can make the groups on the basis of their shared common goals .
+   -Connects students with similar study goals and schedules to form virtual study groups.
+   -Incorporates progress tracking, goal setting, and collaborative challenges for motivation and mutual support.
+- AI-Powered Study Assistant:
+    -Learns students' study habits, preferences, and peak productivity times.
+    -Suggests personalized study plans with adaptive scheduling, taking into account optimal focus periods and break intervals. 
