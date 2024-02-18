@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'poppins', 'sans';
     --blue: #016BFF;
+    --grey: #A5A8AD;
 }
 
 .main{
@@ -150,24 +151,24 @@
     flex-direction: column;
 }
 
-.playlist .title{
+.title{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 13px;
 }
 
-.playlist .title h2{
+.title h2{
     font-size: 23px;
     font-weight: 650;
 }
 
-.playlist .title a{
+.title a{
     color: var(--blue);
     text-decoration: none;
 }
 
-.playlist .title a:hover{
+.title a:hover{
     color: black;
 }
 
@@ -223,6 +224,67 @@
     color: white;
     border: 2px solid black;
 }
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 50px;
+}
+
+.second-section .clock{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.second-section .clock .clock-card{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+
+.clock-card p{
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid white;
+    width: 90%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.clock-card a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 7px 5px;
+    background-color: var(--blue);
+    border-radius: 8px;
+    width: 95%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.clock-card a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
 
 
 .three{
